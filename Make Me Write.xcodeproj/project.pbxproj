@@ -7,19 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB3D5CA128DD57180090B58B /* FileNavigatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3D5CA028DD57180090B58B /* FileNavigatorView.swift */; };
+		AB3D5CA328DD5C730090B58B /* FileNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3D5CA228DD5C730090B58B /* FileNavigator.swift */; };
 		AB64CB1128D3A50B00995E21 /* Make_Me_WriteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64CB1028D3A50B00995E21 /* Make_Me_WriteApp.swift */; };
 		AB64CB1328D3A50B00995E21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64CB1228D3A50B00995E21 /* ContentView.swift */; };
 		AB64CB1528D3A50C00995E21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB64CB1428D3A50C00995E21 /* Assets.xcassets */; };
 		AB64CB1928D3A50C00995E21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB64CB1828D3A50C00995E21 /* Preview Assets.xcassets */; };
+		AB64CB2028D6167800995E21 /* SettingsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64CB1F28D6167800995E21 /* SettingsMenuView.swift */; };
+		AB64CB2228D624A400995E21 /* SprintData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64CB2128D624A400995E21 /* SprintData.swift */; };
+		AB64CB2428D7CA5000995E21 /* WriterStatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64CB2328D7CA5000995E21 /* WriterStatusBar.swift */; };
+		AB64CB2628D7CAB800995E21 /* WriterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64CB2528D7CAB800995E21 /* WriterView.swift */; };
+		AB64CB2828D807F500995E21 /* WriterDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64CB2728D807F500995E21 /* WriterDocument.swift */; };
+		AB9B18F42908662500E32B34 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = AB9B18F32908662500E32B34 /* ConfettiSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB3D5CA028DD57180090B58B /* FileNavigatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileNavigatorView.swift; sourceTree = "<group>"; };
+		AB3D5CA228DD5C730090B58B /* FileNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileNavigator.swift; sourceTree = "<group>"; };
 		AB64CB0D28D3A50B00995E21 /* Make Me Write.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Make Me Write.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB64CB1028D3A50B00995E21 /* Make_Me_WriteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Make_Me_WriteApp.swift; sourceTree = "<group>"; };
 		AB64CB1228D3A50B00995E21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB64CB1428D3A50C00995E21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB64CB1628D3A50C00995E21 /* Make_Me_Write.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Make_Me_Write.entitlements; sourceTree = "<group>"; };
 		AB64CB1828D3A50C00995E21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB64CB1F28D6167800995E21 /* SettingsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMenuView.swift; sourceTree = "<group>"; };
+		AB64CB2128D624A400995E21 /* SprintData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintData.swift; sourceTree = "<group>"; };
+		AB64CB2328D7CA5000995E21 /* WriterStatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriterStatusBar.swift; sourceTree = "<group>"; };
+		AB64CB2528D7CAB800995E21 /* WriterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriterView.swift; sourceTree = "<group>"; };
+		AB64CB2728D807F500995E21 /* WriterDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriterDocument.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB9B18F42908662500E32B34 /* ConfettiSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +70,13 @@
 			children = (
 				AB64CB1028D3A50B00995E21 /* Make_Me_WriteApp.swift */,
 				AB64CB1228D3A50B00995E21 /* ContentView.swift */,
+				AB64CB2128D624A400995E21 /* SprintData.swift */,
+				AB64CB1F28D6167800995E21 /* SettingsMenuView.swift */,
+				AB3D5CA028DD57180090B58B /* FileNavigatorView.swift */,
+				AB3D5CA228DD5C730090B58B /* FileNavigator.swift */,
+				AB64CB2728D807F500995E21 /* WriterDocument.swift */,
+				AB64CB2328D7CA5000995E21 /* WriterStatusBar.swift */,
+				AB64CB2528D7CAB800995E21 /* WriterView.swift */,
 				AB64CB1428D3A50C00995E21 /* Assets.xcassets */,
 				AB64CB1628D3A50C00995E21 /* Make_Me_Write.entitlements */,
 				AB64CB1728D3A50C00995E21 /* Preview Content */,
@@ -85,6 +108,9 @@
 			dependencies = (
 			);
 			name = "Make Me Write";
+			packageProductDependencies = (
+				AB9B18F32908662500E32B34 /* ConfettiSwiftUI */,
+			);
 			productName = "Make Me Write";
 			productReference = AB64CB0D28D3A50B00995E21 /* Make Me Write.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +139,9 @@
 				Base,
 			);
 			mainGroup = AB64CB0428D3A50B00995E21;
+			packageReferences = (
+				AB9B18F22908662500E32B34 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+			);
 			productRefGroup = AB64CB0E28D3A50B00995E21 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +168,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB3D5CA128DD57180090B58B /* FileNavigatorView.swift in Sources */,
+				AB64CB2028D6167800995E21 /* SettingsMenuView.swift in Sources */,
+				AB64CB2228D624A400995E21 /* SprintData.swift in Sources */,
+				AB64CB2828D807F500995E21 /* WriterDocument.swift in Sources */,
+				AB64CB2428D7CA5000995E21 /* WriterStatusBar.swift in Sources */,
 				AB64CB1328D3A50B00995E21 /* ContentView.swift in Sources */,
 				AB64CB1128D3A50B00995E21 /* Make_Me_WriteApp.swift in Sources */,
+				AB3D5CA328DD5C730090B58B /* FileNavigator.swift in Sources */,
+				AB64CB2628D7CAB800995E21 /* WriterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +390,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AB9B18F22908662500E32B34 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AB9B18F32908662500E32B34 /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB9B18F22908662500E32B34 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AB64CB0528D3A50B00995E21 /* Project object */;
 }
